@@ -1,0 +1,10 @@
+application:
+  petstore:
+    live: https://petstore.swagger.io/
+    test: https://petstore.swagger.io/
+  weather:
+    live: http://restapi.demoqa.com/
+    test: http://restapi.demoqa.com/
+
+
+

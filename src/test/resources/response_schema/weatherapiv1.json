@@ -1,0 +1,89 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "title": "The root schema",
+    "description": "The root schema comprises the entire JSON document.",
+    "default": {},
+    "examples": [
+        {
+            "City": "Hyderabad",
+            "Temperature": "27.19 Degree celsius",
+            "Humidity": "78 Percent",
+            "WeatherDescription": "mist",
+            "WindSpeed": "4.6 Km per hour",
+            "WindDirectionDegree": "280 Degree"
+        }
+    ],
+    "required": [
+        "City",
+        "Temperature",
+        "Humidity",
+        "WeatherDescription",
+        "WindSpeed",
+        "WindDirectionDegree"
+    ],
+    "additionalProperties": true,
+    "properties": {
+        "City": {
+            "$id": "#/properties/City",
+            "type": "string",
+            "title": "The City schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "Hyderabad"
+            ]
+        },
+        "Temperature": {
+            "$id": "#/properties/Temperature",
+            "type": "string",
+            "title": "The Temperature schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "27.19 Degree celsius"
+            ]
+        },
+        "Humidity": {
+            "$id": "#/properties/Humidity",
+            "type": "string",
+            "title": "The Humidity schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "78 Percent"
+            ]
+        },
+        "WeatherDescription": {
+            "$id": "#/properties/WeatherDescription",
+            "type": "string",
+            "title": "The WeatherDescription schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "mist"
+            ]
+        },
+        "WindSpeed": {
+            "$id": "#/properties/WindSpeed",
+            "type": "string",
+            "title": "The WindSpeed schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "4.6 Km per hour"
+            ]
+        },
+        "WindDirectionDegree": {
+            "$id": "#/properties/WindDirectionDegree",
+            "type": "string",
+            "title": "The WindDirectionDegree schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "280 Degree"
+            ]
+        }
+    }
+}

@@ -1,0 +1,4 @@
+accounts:
+  account1:
+    USERNAME: dummy@q.com
+    PASSWORD: 123456

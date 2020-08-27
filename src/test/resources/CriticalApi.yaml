@@ -1,0 +1,10 @@
+api:
+  petstore:
+    method: GET
+    path: v2/pet/123
+    successStatusCode: 200
+  weather:
+    method: GET
+    path: utilities/weather/city/{city}
+    successStatusCode: 200
+    responseSchema: weatherapiv1
